@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+<div th:replace="base::navlinks"></div>
+
+<h1>Our Featured Events! </h1>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col">
+            <b>Featured Event</b>
+            <div class="card" style="width: 18rem; height: 70%">
+                <img src="https://res.cloudinary.com/db9bfssj4/image/upload/v1570642514/https_3A_2F_2Fcdn.evbuc.com_2Fimages_2F68206885_2F37309396322_2F1_2Foriginal_oapdgk.jpg" style="height:30%;" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Sunday Night Full Moon Walk</h5>
+                    <p class="card-text">Washington DC's monuments and memorials on the National Mall are spectacular.</p>
+                    <a href="https://www.eventbrite.com/e/sunday-night-full-moon-walk-national-mall-monuments-memorials-tickets-68678428027?aff=ebdshpfprimarybucket" class="btn btn-primary">See Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            Second Event
+            <div class="card" style="width: 18rem; height: 70%">
+                <img src="https://res.cloudinary.com/db9bfssj4/image/upload/v1570642919/https_3A_2F_2Fcdn.evbuc.com_2Fimages_2F74100645_2F207276711020_2F1_2Foriginal_vie7ny.jpg" style="height:30%;" class="card-img-top" alt="Pumpkin Patch">
+                <div class="card-body">
+                    <h5 class="card-title">2019 Pumpkin Fest</h5>
+                    <p class="card-text">Bring you kids for a time of fun for the whole family! There will be plenty of pumpkin pickingfor you and your children!</p>
+                    <a href="https://www.eventbrite.com/e/2019-pumpkin-fest-tickets-72796760069?aff=ebdssbdestsearch" class="btn btn-primary">See Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            Third Event
+            <div class="card" style="width: 18rem; height: 70%">
+                <img src="https://res.cloudinary.com/db9bfssj4/image/upload/v1560176425/giphy_zmt1wu.gif" style="height:30%;" class="card-img-top" alt="Pumpkin Patch">
+                <div class="card-body">
+                    <h5 class="card-title">Oktoberfest</h5>
+                    <p class="card-text">The Station is excited to announce its first Oktoberfest celebration on Saturday, October 12th from noon-8pm. </p>
+                    <a href="https://www.eventbrite.com/e/oktoberfest-tickets-72412097533?aff=ebdssbdestsearch" class="btn btn-primary">See Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div th:replace="base::footer"></div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
